@@ -31,10 +31,7 @@ console.log(lucesRojas);
 
 
 const mostrarLuz=()=>{ //Constante declarada por una funcion flecha llamada mostrarLuz
-    //lucesRojas.className='semaforo-luces';
-    //lucesAmarillas.className='semaforo-luces';
-    //lucesVerdes.className='semaforo-luces';//En la posicion contadorDeLuz el nombre de la clase va a ser luces-circulo
-    contadorDeLuz++;//Se avanza el contador de luz
+     contadorDeLuz++;//Se avanza el contador de luz
 
     if(contadorDeLuz>19) contadorDeLuz=0;//Evaluar que si contador de luz es mayor a 2 el contador vuelve a 0
     
